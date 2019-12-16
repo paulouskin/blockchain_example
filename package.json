@@ -1,0 +1,25 @@
+{
+  "name": "blockchain_example",
+  "version": "1.0.0",
+  "description": "Blockchain from Simply Explained - Savjee",
+  "main": "main.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulouskin/blockchain_example.git"
+  },
+  "keywords": [
+    "blockchain",
+    "savjee",
+    "learning"
+  ],
+  "author": "paulouskin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paulouskin/blockchain_example/issues"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
+  },
+  "homepage": "https://github.com/paulouskin/blockchain_example#readme"
+}
