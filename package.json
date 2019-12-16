@@ -19,7 +19,8 @@
     "url": "https://github.com/paulouskin/blockchain_example/issues"
   },
   "dependencies": {
-    "crypto-js": "^3.1.9-1"
+    "crypto-js": "^3.1.9-1",
+    "elliptic": "^6.5.2"
   },
   "homepage": "https://github.com/paulouskin/blockchain_example#readme"
 }

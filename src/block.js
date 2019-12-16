@@ -1,4 +1,5 @@
 const SHA256 = require('crypto-js/sha256');
+
 class Block {
 
     constructor(timestamp, transactions, previousHash = ''){
@@ -19,6 +20,15 @@ class Block {
             this.nonce++;
             this.hash = this.calculateHash();
         }
+    }
+
+    hasValidTransactions() {
+        for (const tx of this.transactions) {
+            if (!tx.isValid) {
+                return false;
+            }
+        }
+        return true;
     }
 }
 
